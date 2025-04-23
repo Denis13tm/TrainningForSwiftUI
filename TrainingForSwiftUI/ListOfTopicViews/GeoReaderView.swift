@@ -191,7 +191,7 @@ struct ParallaxHeaderView: View {
 }
 
 
-struct ArcadeStickyHeaderView: View {
+struct ArcadeStickyHeader2View: View {
     @State private var showToolbar: Bool = false
     @State private var opacity: Double = 0
 
@@ -288,7 +288,7 @@ struct ArcadeStickyHeaderView: View {
     }
 }
 
-struct ArcadeStickyHeaderView2: View {
+struct ArcadeStickyHeaderView: View {
     @State private var toolbarOpacity: Double = 0.0
     @Environment(\.colorScheme) var colorScheme
     
@@ -581,9 +581,9 @@ struct OneByThreePagingView: View {
  //   CenteredCircleView()
 //    ParallaxHeaderView()
 //    OneByThreePagingView()
-    ArcadeStickyHeaderView2()
+    ArcadeStickyHeaderView()
         .preferredColorScheme(.dark)
 }
 #Preview {
-    ArcadeStickyHeaderView2()
+    ArcadeStickyHeaderView()
 }

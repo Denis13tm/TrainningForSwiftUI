@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F6F592742DB4E0060065E272 /* TrainningForSwiftUI */ = {
+		F6F592742DB4E0060065E272 /* TrainingForSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrainningForSwiftUI;
+			path = TrainingForSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		F6F592692DB4E0060065E272 = {
 			isa = PBXGroup;
 			children = (
-				F6F592742DB4E0060065E272 /* TrainningForSwiftUI */,
+				F6F592742DB4E0060065E272 /* TrainingForSwiftUI */,
 				F6F592732DB4E0060065E272 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F6F592742DB4E0060065E272 /* TrainningForSwiftUI */,
+				F6F592742DB4E0060065E272 /* TrainingForSwiftUI */,
 			);
 			name = TrainningForSwiftUI;
 			packageProductDependencies = (
