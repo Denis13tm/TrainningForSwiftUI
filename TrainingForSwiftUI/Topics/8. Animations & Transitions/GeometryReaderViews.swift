@@ -1,20 +1,18 @@
 //
-//  GeoReaderView.swift
-//  TrainningForSwiftUI
+//  GeometryReaderViews.swift
+//  TrainingForSwiftUI
 //
-//  Created by Otabek Tuychiev on 4/20/25.
+//  Created by Otabek Tuychiev on 4/23/25.
 //
 
 import SwiftUI
 
-struct GeoReaderView: View {
-    
+struct GeometryReaderViews: View {
     @Namespace var animation
     @State private var showCompactHeader = false
     @State private var toolbarOpacity: Double = 0
     
     var body: some View {
-        
         VStack {
             GeometryReader { geo in
                 let minY = geo.frame(in: .global).minY
@@ -28,7 +26,6 @@ struct GeoReaderView: View {
             .frame(height: 300)
 
         }
-        
     }
 }
 
